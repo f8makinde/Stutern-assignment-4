@@ -1,5 +1,6 @@
 body{
     background-color: white;
+    margin: 1em;
 }
 .first-section{
     background-color: white;
@@ -7,7 +8,7 @@ body{
     font-size: 14px;
     font-weight: bold;
 }
-.italic-style-ol, .italic-style-ul{
+.italic-style-ol, .italic-style-ul, th{
     font-style: italic;
 }
 .second-section{
@@ -15,4 +16,14 @@ body{
     color: red;
     font-size: 14px;
     font-weight: bold;
+}
+.third-section{
+    background-color: white;
+    color: blue;
+    font-size: 14px;
+    font-weight: bold;
+}
+ td{
+    border: 1px solid black;
+    padding: 1em;
 }
