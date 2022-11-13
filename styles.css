@@ -2,8 +2,10 @@ body{
     background-color: white;
     margin: 1em;
 }
+h4{
+    font-size: 18px;
+}
 .first-section{
-    background-color: white;
     color: green;
     font-size: 14px;
     font-weight: bold;
@@ -12,13 +14,11 @@ body{
     font-style: italic;
 }
 .second-section{
-    background-color: white;
     color: red;
     font-size: 14px;
     font-weight: bold;
 }
 .third-section{
-    background-color: white;
     color: blue;
     font-size: 14px;
     font-weight: bold;
