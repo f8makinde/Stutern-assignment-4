@@ -1,0 +1,18 @@
+body{
+    background-color: white;
+}
+.first-section{
+    background-color: white;
+    color: green;
+    font-size: 14px;
+    font-weight: bold;
+}
+.italic-style-ol, .italic-style-ul{
+    font-style: italic;
+}
+.second-section{
+    background-color: white;
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+}
