@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intro to css</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
      <!-- <h4>First section</h4> -->
@@ -41,8 +42,28 @@
     </div>
   <!-- <h4>Second section</h4> -->
   <div>
+      <h3>Difference between Padding, Margins and Borders</h3>
       <table>
-        
+        <tr>
+            <th>Padding</th>
+            <th>Margins</th>
+            <th>Borders</th>
+        </tr>
+        <tr>
+            <td>The inner space between the content and the border of your box.</td>
+            <td>The outer space (or lack of space) surrounding the box.</td>
+            <td>The perimeter of the box. Borders can be invisible or they could be a thick colored line like the green one pictured above. </td>
+        </tr>
+        <tr>
+            <td>Padding controls how much breathing room exists within a box</td>
+            <td>Margin controls how much breathing room or whitespace exists outside of a box.</td>
+            <td>Border is between the margin and padding of an object. Only counted when given an actual width otherwise, it’s zero.</td>
+        </tr>
+        <tr>
+            <td>Padding can be set to zero pixels and above. It can change its own element's size and impact how much of a fill color or background image is visible within a box.</td>
+            <td>Margins, on the other hand, are essentially invisible barriers around a box. They define how an element interacts with adjacent elements or the edge of a screen</td>
+            <td>-</td>
+        </tr>
       </table>
   </div>
 </body>
